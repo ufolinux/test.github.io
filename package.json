@@ -1,0 +1,19 @@
+{
+  "name": "ufolinux-site",
+  "scripts": {
+    "start": "imba -w server.imba",
+    "build": "imba build --no-hashing server.imba"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "imba": "^2.0.0-alpha.129"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.22"
+  },
+  "repository": "ufolinux",
+  "description": "Ufolinux Site",
+  "version": "1.0.0",
+  "homepage": "https://github.com/ufolinux/ufolinux.tk",
+  "author": "Cybersecbyte (https://github.com/cybersecbyte)"
+}
